@@ -8,3 +8,6 @@ now we do "dvc remote add -d dvc s3" set remote origin
 next "dvc add data/"
 git rm -r --cached data and git commit -m "stop tracking data"
 again "dvc add data/" command will be run and then git add data.dvc .gitignore
+now dvc commit and dvc push
+change the data 
+dvc commit and dvc push
