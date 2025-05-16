@@ -1,3 +1,10 @@
 create git repo and clone it in local
 make a code.py filr and code it
 do a git commit push before initializing dvc
+pip install dvc
+dvc init (creates a .dvcignore , .dvc)
+make a s3 directory
+now we do "dvc remote add -d dvc s3" set remote origin
+next "dvc add data/"
+git rm -r --cached data and git commit -m "stop tracking data"
+again "dvc add data/" command will be run and then git add data.dvc .gitignore
